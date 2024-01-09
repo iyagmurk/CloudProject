@@ -25,10 +25,10 @@ SECRET_KEY = 'django-insecure-j$@k5(*=m$3m&o2u@mv^ofx@nl272sc8r_5=e&m&n7z=+wykma
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-#STATIC_ROOT = os.path.normpath(os.path.join(BASE_DIR, 'staticfiles'))
-#STATICFILES_DIRS = (
- #   os.path.join(BASE_DIR, 'static'),
-#)
+STATIC_ROOT = os.path.normpath(os.path.join(BASE_DIR, 'staticfiles'))
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
 
 ALLOWED_HOSTS = ['*']
 
